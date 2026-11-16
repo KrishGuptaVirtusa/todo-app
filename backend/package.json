@@ -1,0 +1,26 @@
+{
+  "name": "virtusa-todo-backend",
+  "version": "1.0.0",
+  "description": "VIT Team 3 - Express.js REST API Backend for To-Do Application",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "todo",
+    "express",
+    "rest-api",
+    "virtusa",
+    "vit-team-3"
+  ],
+  "author": "Kaligotla Venkata Vasistha Ramana Rao (VasisthaVirtusa)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}
